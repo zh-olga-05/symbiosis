@@ -1,0 +1,47 @@
+/* Base */
+
+.header {
+    padding: 24px 100px 12px 100px;
+}
+
+.header__navigate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px;
+
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+
+    gap: 20px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: gray;
+}
+
+.navigation__link:hover {
+    color: black;
+    transition: color 0.8s;
+}
+
+/* Avatar */
+
+.header__avatar {
+    display: flex;
+    align-items: center;
+}
+
+.header__avatar-image {
+    display: block;
+    border-radius: 50%;
+}

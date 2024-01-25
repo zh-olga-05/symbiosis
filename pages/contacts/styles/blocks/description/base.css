@@ -1,0 +1,48 @@
+/* Base */
+
+.description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    padding: 24px;
+
+    background-color: gainsboro;
+    border-radius: 10px;
+
+    height: 450px;
+}
+
+.description__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description input {
+    margin: 10px 0px;
+    padding: 5px;
+    height: 35px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.description button {
+    margin: 20px 0px;
+    height: 45px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(119, 225, 209);
+}
+
+.description button:hover {
+    cursor: pointer;
+    background-color: rgb(54, 180, 161);
+    transition: background-color 0.8s;
+}
+
+.description img {
+    border-radius: 15px;
+}

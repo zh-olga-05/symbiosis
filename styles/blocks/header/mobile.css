@@ -1,0 +1,11 @@
+@media (width <= 425px) {    
+    .header__navigate {
+        flex-wrap: wrap;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+
+        padding-left: 0px;
+    }
+}

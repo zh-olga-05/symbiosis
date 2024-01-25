@@ -1,0 +1,11 @@
+/* Desktop */
+
+@media (width <= 1024px) {
+    .description__info {
+        width: 100%;
+    }
+
+    .description video {
+        width: 100%;
+    }
+}

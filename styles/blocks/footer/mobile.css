@@ -1,0 +1,13 @@
+@media (width <= 425px) {    
+    .footer {
+        margin: 12px;
+
+        .subscribe {
+            flex-wrap: wrap;
+        }
+
+        .links {
+            flex-wrap: wrap;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@media (width <= 425px) {
+    .page__header {
+        padding: 12px;
+    }
+    
+    .page__main {
+        margin: 12px;
+    }
+}

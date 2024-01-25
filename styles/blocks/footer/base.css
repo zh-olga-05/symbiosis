@@ -1,0 +1,133 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 24px;
+    margin: 20px 100px;
+
+    background-color: gainsboro;
+
+    border-radius: 15px;
+}
+
+.footer__left_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .list {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+
+        list-style: none;
+        padding-left: 0px;
+
+        .item {
+            margin-bottom: 10px;
+
+            .social-icon {
+                position: relative;
+                display: block;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                transition: background-color .3s ease-in-out;
+                width: 48px;
+                height: 48px;
+            }
+
+            .social-icon:hover {
+                background-color: #e0e0e0;
+            }
+
+            .social-icon::before {
+                content: "";
+                position: absolute;
+                width: 1.2rem;
+                height: 1.2rem;
+                left: .65rem;
+                top: .65rem;
+                background: transparent no-repeat center center;
+                background-size: 100% 100%;
+            }
+        }
+    }
+
+    .social-icon-telegram {
+        background-image: url("../../../images/icons-telegram.png");
+    }
+
+    .social-icon-youtube {
+        background-image: url("../../../images/icons-youtube.png"); 
+    }
+
+    .social-icon-instagram {
+        background-image: url("../../../images/icons-instagram.png");
+    }
+}
+
+.footer__right_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__right_section .subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 25px;
+
+    .subscribe_input {
+        height: 35px;
+        border-radius: 15px;
+    }
+
+    .subscribe_button {
+        background-color: rgb(119, 225, 209);
+        border-width: 1px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .subscribe_button:hover {
+        cursor: pointer;
+        background-color: rgb(54, 180, 161);
+        transition: background-color 0.8s;
+    }
+}
+
+.footer__right_section .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+
+    .list {
+        list-style: none;
+        padding-left: 0px;
+
+        .item {
+            margin-bottom: 10px;
+        }
+
+        .item:hover {
+            cursor: pointer;
+            color: rgb(91, 85, 85);
+            transition: color 0.8s;
+        }
+    }
+
+    .links__left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links__right {
+        display: flex;
+        flex-direction: column;
+    }
+}

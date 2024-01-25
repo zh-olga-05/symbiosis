@@ -1,0 +1,28 @@
+/* Base */
+
+.description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    padding: 24px;
+
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.description__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 50%;
+}
+
+.description video {
+    border-radius: 15px;
+    width: 450px;
+}
